@@ -64,11 +64,13 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border: none;
+  outline: none;
 }
 input:focus,button:focus,
 input:focus-visible,button:focus-visible {
   outline: none;
+  border: none;
 }
 
 #app {

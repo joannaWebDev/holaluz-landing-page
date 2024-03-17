@@ -83,6 +83,7 @@ const borderColor = ref('#e5007e')
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 100%;
   gap: 10px;
 
@@ -123,15 +124,4 @@ const borderColor = ref('#e5007e')
   }
 }
 
-@media (min-width: 769px) {
-  .wrapper {
-    flex-direction: row;
-
-    .client-info,
-    .client-offer,
-    .no-offer-details {
-      width: 40%;
-    }
-  }
-}
 </style>

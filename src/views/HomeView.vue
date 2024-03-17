@@ -7,6 +7,7 @@ import PageFooter from '@/components/PageFooter.vue'
 import PageHeader from '@/components/PageHeader.vue'
 import PageHero from '@/components/PageHero.vue'
 import ProjectsSection from '@/components/ProjectsSection.vue'
+import SidePanel from '@/components/SidePanel.vue'
 import TestimonialsSection from '@/components/TestimonialsSection.vue'
 
 const isVisible = ref<boolean>(false)
@@ -16,9 +17,10 @@ const isVisible = ref<boolean>(false)
   <PageHeader />
   <main>
     <PageHero @check-eligibility="isVisible = true" />
-    <transition name="slide-fade">
-      <ClientOffer v-if="isVisible" />
-    </transition>
+    <side-panel :is-visible="isVisible" @close="isVisible = false">
+      <ClientOffer />
+    </side-panel>
+
     <ProjectsSection />
     <FAQSection />
     <TestimonialsSection />
@@ -33,15 +35,5 @@ main {
   > * {
     margin: 5rem auto;
   }
-}
-
-.slide-fade-enter-active,
-.slide-fade-leave-active {
-  transition: all 0.5s ease;
-}
-.slide-fade-enter,
-.slide-fade-leave-to {
-  transform: translateY(10px);
-  opacity: 0;
 }
 </style>
