@@ -63,11 +63,11 @@ npm run test:unit
 ```
 
 ## Preview
-iPhone XS | iPhone 15 Pro Max | iPad_Pro_(12.9-inch)
---- |------| --------|
-[![iPhone](./src/assets/iPhone_Xs.png)](./src/assets/iPhone_Xs.png) | [![iPhone](./src/assets/iPhone_15_Pro_Max.png)](./src/assets/iPhone_15_Pro_Max.png) | [![iPad](./src/assets/iPad_Pro_(12.9-inch).png)](./src/assets/iPad_Pro_(12.9-inch).png)
+| iPhone XS                                                           | iPhone 15 Pro Max | iPad_Pro_(12.9-inch) |
+|---------------------------------------------------------------------|------| --------|
+| [![iPhone](./src/assets/iPhone_Xs.png)](./src/assets/iPhone_Xs.png) | [![iPhone](./src/assets/iPhone_15_Pro_Max.png)](./src/assets/iPhone_15_Pro_Max.png) | [![iPad](./src/assets/iPad_Pro_(12.9-inch).png)](./src/assets/iPad_Pro_(12.9-inch).png) |
 
-<img src="./src/assets/preview.gif" alt="Landing Page" width="100%"/>
+<img src="./src/assets/new-preview.gif" alt="Landing Page"/>
 
 # Final notes
 This project was created by [Joanna M. Smerea](https://www.linkedin.com/in/joannasmerea/) as part of the Holaluz Frontend coding test.
